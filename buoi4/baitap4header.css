@@ -251,13 +251,21 @@ h2{
 }
 .ftcolumn h3{
     color: white;
+    margin-bottom: 10px;
 }
 .ftcolumn ul{
     display: flex;
     flex-direction: column;
+    
 }
 .ftcolumn li{
     margin: 0;
+    line-height: 2;
+}
+.last{
+    display: flex;
+    width: 60%;
+    justify-content:space-between;
 }
 
 
