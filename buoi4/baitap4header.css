@@ -20,7 +20,7 @@ a {
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width: 140px;
     height: 100%;
     padding: 10px;
     display: flex;
@@ -45,6 +45,9 @@ li {
     list-style-type: none;
     margin: 0 15px;
 }
+.fas{
+    margin-left: 5px;
+}
     
 .submenu a{
     text-decoration: none;
@@ -62,7 +65,6 @@ li {
 .avarta img {
     width: 60%;
     border-radius: 30px;
-
 }
 .caret{
     color:white;
@@ -71,6 +73,26 @@ li {
 }
 .submenu li a:hover{
     color: grey;
+}
+.submenu{
+    position: relative;
+}
+.qwert{
+    position: absolute;
+    padding-top: 10px;
+    display: none;
+
+}
+.qwert li{
+    background-color: teal;
+    padding: 10px 15px;
+}
+.qwert li a {
+    margin: 0px;
+}
+.submenu li:hover .qwert{
+    display: block;
+
 }
 #content{
     width: 100%;
@@ -90,11 +112,13 @@ li {
 }
 .col1{
     flex-basis: 66.67%;
-    padding-left: 15px;
     padding-right: 15px;
 }
 .col1 img{
     width: 100%;
+    border-radius: 5px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.25);
+    display: block;
 }
 .col2{
     display: flex;
@@ -102,9 +126,9 @@ li {
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
 }
 .post{
+    overflow: hidden;
     display: flex;
     padding-right: 15px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.25);
@@ -120,6 +144,7 @@ li {
 .ex a{
     text-decoration: none;
     color: #464646;
+
 }
 .ex{
     height: 100%;
@@ -127,11 +152,18 @@ li {
     margin-bottom: 5px;
     padding-left: 10px;
     text-align: left;
+    position: relative;
 
+}
+.post-title{
+    margin-top: 5px;
 }
 .post-author{
     font-size: 0.8rem;
     color: grey;
+    position: absolute;
+    bottom: 20px;
+
 }
 .intro{
     padding: 20px 20px 0 20px;
@@ -176,6 +208,7 @@ h2{
     box-shadow: 0px 1px 4px rgba(0,0,0,0.25);
     margin-top: 40px;
     border-radius:10px;
+    overflow: hidden;
     text-align:justify;
     display: flex;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -207,6 +240,15 @@ h2{
 .block3{
     padding: 50px;
 }
+.title3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title3 i {
+    font-size: 30px;
+    color:#919294;
+}
 .doan{
     text-align: left;
     padding-left: 15px;
@@ -236,7 +278,6 @@ h2{
 .footer{
     background-color:#464646;
     display: flex;
-    padding-left: 60px;
     width: 100%;
 }
 .ftcolumn{
@@ -266,6 +307,22 @@ h2{
     display: flex;
     width: 60%;
     justify-content:space-between;
+}
+.messenger{
+    background-color: rgb(0, 132, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messenger i{
+    font-size: 40px;
+    color: white;
 }
 
 
