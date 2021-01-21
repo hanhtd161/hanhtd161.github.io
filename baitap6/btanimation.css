@@ -19,9 +19,9 @@
 }
 @keyframes heart1 {
     25% {font-size: 220px;}
-    25% {font-size: 190px;}
-    25% {font-size: 220px;}
-    25% {font-size: 240px;}
+    50% {font-size: 190px;}
+    75% {font-size: 220px;}
+    100% {font-size: 240px;}
 }
 .ex2{
     margin-top: 50px;
