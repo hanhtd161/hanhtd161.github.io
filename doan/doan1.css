@@ -153,7 +153,37 @@ h3{
 }
 .item a:hover img{
     opacity: 0.3;
+    transition: 0.5s;
 }
 .item a:hover .tit{
     display: block;
+}
+.footer{
+    background-color: #423A3A;
+    color:white;
+}
+.footer h2{
+    color:white;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.info {
+    padding-bottom: 50px;
+}
+.hi{
+    color: white;
+    line-height: 2;
+}
+.footer a{
+    color: white
+}
+.footer a:hover{
+    color: orange
+}
+.fl{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
